@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Telecommunication</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Paragraph">The Department of Telecommunication Engineering was started in the year 1992-93. The Department has a team of well qualified and dedicated staff members. On the forefront of development and with the advent of technological revolution and quantum development in the field of Electronics and Communications, due to myriad complexities of the e-world, it was inevitable for the evolution of another field to make a distinct identity of its own. Thus, the ball of development was set into motion and the Telecommunication field gradually assumed a role of pre-eminence which is shared by few other engineering disciplines in the modern world. The Department offers Under-Graduate [UG] course and has a Research Center under V.T.U. It has excellent infrastructure facilities and all the labs are well equipped. The objective of the Department is to empower every student to be creative and productive in the field of Telecommunication Engineering by imparting excellent Technical Education and inculcating Human Values. The department offers an excellent academic environment with a team of highly qualified and dedicated faculties. Two staff members have obtained their Ph.D. degree and two other faculty members are pursuing their Ph.D. TheDepartment has the credit of many Technical papers being published in National, International Journals and conference proceedings. Most of our Telecommunication engineering students get placed in good Companies like Robert Bosh, Oracle, Musigma, TCS, Wipro, IBM, Capgemini, Ericsson, Tech Mahindra, Indian Navy, HP, Infosys, I Gate, SOCIETE GENERAL, CISCO, Computer Science Corporation, Aricent,Allstate, Indegene life system, INTEL etc. The Department has a Student Association called TESA to organize technical seminars and workshops for the benefit of students. They are also part of many clubs such as Rotaract club, Xkalibre, BIT ECO Club, Samskruthi , IEEE etc.
+The Department is currently headed by Dr. S. Shanthala M.E, Ph. D., MISTE, MIMAPS
+</string>
+    <string name="para">
+Dr.S.Shanthala has 26 Years of teaching experience and is actively involved in the Research and Development work. Research papers are published in leading international journals and conference proceedings. She has also been instrumental in obtaining financial aids from funding agencies for the on-going Research and Developmental work in the Department.
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="dr_shanthala_s">Dr.Shanthala S</string>
+    <string name="telecommunication_department">Telecommunication Department</string>
+</resources>
