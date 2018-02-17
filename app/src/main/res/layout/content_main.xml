@@ -24,13 +24,13 @@
 
       <TextView
           android:id="@+id/textView1"
-          android:layout_width="wrap_content"
+          android:layout_width="200dp"
           android:layout_height="wrap_content"
-          android:layout_alignParentStart="true"
           android:layout_alignParentTop="true"
-          android:layout_marginStart="49dp"
-          android:gravity="left"
-          android:text="@string/telecommunication_department"
+          android:layout_alignStart="@+id/textView2"
+          android:layout_marginStart="66dp"
+          android:gravity="center_horizontal"
+          android:marqueeRepeatLimit="marquee_forever"
           android:textColor="#7CB342"
           android:textSize="20sp"
           tools:ignore="InvalidId" />
@@ -41,7 +41,9 @@
     android:layout_marginTop="30dp"
     android:layout_marginStart="5dp"
     android:layout_marginEnd="5dp"
-    android:layout_gravity="center_vertical|fill"
+          android:textColor="#000000"
+    android:layout_gravity="center_horizontal|center"
+          android:gravity="start"
     android:text="@string/Paragraph"/>
       <TextView
           android:layout_width="wrap_content"
@@ -50,9 +52,11 @@
           android:layout_below="@+id/textpara"
           android:text="@string/para"
           android:layout_margin="5dp"
-          android:layout_above="@+id/imageH"
-          tools:ignore="UnknownId"
-          android:textColor="#f0f00f"
+          android:textColor="#000000"
+          android:layout_gravity="center_vertical|right"
+          android:gravity="left"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
           />
    <ImageView
     android:layout_width="wrap_content"
@@ -63,6 +67,7 @@
     android:src="@drawable/hod_mam"
     android:foregroundGravity="center"
     tools:ignore="InvalidId"
+       android:contentDescription="@string/dr_shanthala_s"
     android:background="@color/colorPrimaryDark"/>
       <TextView
           android:layout_width="wrap_content"
@@ -71,7 +76,8 @@
           android:layout_marginTop="15dp"
           android:text="@string/dr_shanthala_s"
           android:layout_marginStart="10dp"
-          android:textColor="#00ACC1"/>
+          android:textColor="#00ACC1"
+          android:id="@+id/textView2" />
   </RelativeLayout>
 
     </ScrollView>
