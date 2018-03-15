@@ -55,16 +55,19 @@
                 android:src="@drawable/hod_mam"
                 android:foregroundGravity="center"
                 tools:ignore="InvalidId"
+                android:layout_marginLeft="50dp"
                 android:background="@color/colorPrimaryDark"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageH"
-                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignLeft="@+id/imageH"
                 android:text="@string/dr_shanthala_s"
-                android:layout_marginStart="10dp"
                 android:textColor="#00ACC1"
-                android:textSize="20sp"/>
+                android:layout_marginTop="15dp"
+                android:textSize="20sp" />
         </RelativeLayout>
 
     </ScrollView>
