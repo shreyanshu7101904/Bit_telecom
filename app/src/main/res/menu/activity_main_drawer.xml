@@ -10,7 +10,7 @@
             android:title="Faculty" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/schedule_5"
             android:title="Question Papers" />
         <item
             android:id="@+id/nav_slideshow"
@@ -18,9 +18,24 @@
             android:title="Elective" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/notifcaion"
             android:title="Notifications" />
-
+        <item
+            android:id="@+id/question_papers"
+            android:icon="@drawable/question_papers"
+            android:title="Questions"/>
+        <item
+            android:id="@+id/login_faculty"
+            android:icon="@drawable/login_fac"
+            android:title="Login"/>
+        <item
+            android:id="@+id/web_department"
+            android:icon="@drawable/faculty_web"
+            android:title="Faculty Website"/>
+        <item
+            android:id="@+id/web_college"
+            android:icon="@drawable/college_web"
+            android:title="College website"/>
     </group>
 
 

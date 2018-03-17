@@ -91,10 +91,14 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_slideshow) {
 
-        } else if (id == R.id.nav_manage) {
-
+        } else if (id == R.id.web_department) {
+            Intent i =new Intent(MainActivity.this,facultywebview.class);
+            startActivity(i);
         }
-
+        else if(id == R.id.web_college){
+            Intent j = new Intent(MainActivity.this,collegeweb.class);
+            startActivity(j);
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
